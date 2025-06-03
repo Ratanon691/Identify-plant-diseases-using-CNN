@@ -9,23 +9,22 @@ This project uses deep learning, Convolutional Neural Networks (CNNs) with trans
 The model is trained on a labeled dataset of diseased and healthy plant leaf images and learns to classify images into distinct disease categories.
 
 Objectives
-Automatically identify plant leaf diseases using image classification.
 
-Assist in real-time monitoring and diagnosis in agricultural settings.
-
-Provide a proof-of-concept for scalable AI-powered plant health diagnostics.
+* Automatically identify plant leaf diseases using image classification.
+* Assist in real-time monitoring and diagnosis in agricultural settings.
+* Provide a proof-of-concept for scalable AI-powered plant health diagnostics.
 
 Why Convolutional Neural Networks (CNN)?
 CNNs are designed to process pixel data and extract hierarchical visual features, making them particularly effective for image classification tasks. This project leverages CNN's ability to:
 
-Learn complex patterns from leaf textures, color distortions, and lesion shapes.
-
-Generalize well to new images after training.
-
-Work effectively with a moderate amount of training data when using data augmentation.
+* Learn complex patterns from leaf textures, color distortions, and lesion shapes.
+* Generalize well to new images after training.
+* Work effectively with a moderate amount of training data when using data augmentation.
 
 Dataset
+
 Source: plat_village dataset,tfds
+
 https://arxiv.org/abs/1511.08060
 
 Total Classes: 38 classes including both healthy and diseased plant leaves (e.g., Tomato - Bacterial Spot, Potato - Early Blight, Corn - Common Rust, etc.)
@@ -37,6 +36,7 @@ Image Dimensions: Resized to 128x128 for training efficiency
 Split: 70% training, 15% validation, 15% test
 
 Libraries Used
+
 * NumPy
 * Pandas
 * Matplotlib
@@ -44,20 +44,16 @@ Libraries Used
 * scikit-learn
 
 Limitations
-Trained only on specific plant species and common diseases in the dataset
 
-May not generalize well to rare diseases or crops not included in training
-
-Real-world usage would require image capture consistency (lighting, angle)
+* Trained only on specific plant species and common diseases in the dataset
+* May not generalize well to rare diseases or crops not included in training
+* Real-world usage would require image capture consistency (lighting, angle)
 
 Future Enhancements
-Integrate real-time image capture via mobile app
-
-Expand dataset with local agricultural samples
-
-Use transfer learning with pretrained models like ResNet or EfficientNet
-
-Local language support for field deployment in rural areas
+* Integrate real-time image capture via mobile app
+* Expand dataset with local agricultural samples
+* Use transfer learning with pretrained models like ResNet or EfficientNet
+* Local language support for field deployment in rural areas
 
 Use Case
 Precision Agriculture for Smallholder Farmers
