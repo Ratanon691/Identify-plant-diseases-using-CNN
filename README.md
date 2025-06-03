@@ -22,7 +22,8 @@ Generalize well to new images after training.
 Work effectively with a moderate amount of training data when using data augmentation.
 
 Dataset
-Source: [PlantVillage Dataset (Kaggle / open datasets)]
+Source: plat_village dataset,tfds
+https://arxiv.org/abs/1511.08060
 
 Total Classes: 38 classes including both healthy and diseased plant leaves (e.g., Tomato - Bacterial Spot, Potato - Early Blight, Corn - Common Rust, etc.)
 
