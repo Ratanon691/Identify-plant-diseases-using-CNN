@@ -1,6 +1,7 @@
 Identifying Plant Leaf Diseases Using Convolutional Neural Networks (CNN)
 
 Overview
+
 This project uses deep learning, Convolutional Neural Networks (CNNs) with transfer learning technique with pre-train VGG16 to be precise to classify and identify diseases in plant leaves from image data. With the rise in demand for efficient agricultural solutions, this model aids farmers and agronomists by providing a low-cost, scalable method for early disease detection, potentially improving crop yield and reducing pesticide overuse.
 
 The model is trained on a labeled dataset of diseased and healthy plant leaf images and learns to classify images into distinct disease categories.
